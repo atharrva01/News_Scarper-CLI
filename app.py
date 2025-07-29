@@ -5,7 +5,7 @@ parser = argparse.ArgumentParser(description="This is news scraper cli")
 parser.add_argument("--query" , required = True , help = "Add the query here.")
 args = parser.parse_args()
 
-api = "84f36db8dd71da3015ae99594a02c2d3"
+api = "xyz"  # as this API key has certain limits i am changing it so no one could access it , if you want add your own API key here
 
 query = args.query
 
